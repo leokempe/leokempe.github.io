@@ -48,7 +48,6 @@ a:hover {
 .label {
     font-weight: bold;
     display: block;
-    text-align: center;
 }
 
 .category {
@@ -61,6 +60,7 @@ a:hover {
     display: flex;
     justify-content: center;
     flex-direction: row;
+    text-align: center;
 }
 
 @media (max-width: 450px) {
@@ -71,4 +71,5 @@ a:hover {
 
 .card {
     margin: 1rem;
+    width: 200px;
 }
